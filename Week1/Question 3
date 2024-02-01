@@ -13,6 +13,12 @@ int main() {
     cin>>x;
     a=0;
     b=2;
+    if(x<arr[0])
+    {
+        cout<<"not present    1";
+        c=c+1;
+        exit(0);
+    }
     while(x>=a)
     {
         c=c+1;
